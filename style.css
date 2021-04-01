@@ -1,0 +1,49 @@
+h2{
+    color: red;
+}
+i{
+    color: purple;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu a, .menu p{
+    color: white;
+}
+
+
+
+p, a, h1, h2, h3, i, li{
+    font-family: 'Trebuchet MS';
+}
+
+.bodyimg{
+    position: relative;
+}
+
+.bodyimg .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 80px;
+}
+
+.origami{
+    width: 300px;
+    background-color: greenyellow;
+}
